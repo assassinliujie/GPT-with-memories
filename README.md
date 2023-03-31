@@ -64,6 +64,13 @@
 
 2.num项，用于存储根据NLP算法所得到的符合度值，越高越匹配
 
+在名为settings的库中的background集合里的文件格式要包括：
+
+1.xingge项，用于存放搜索结果
+
+2.koutouchan项，用于存储根据NLP算法所得到的符合度值，越高越匹配
+
+3.backmes项，用于存放背景故事信息
 五、特殊说明
 
 对于调用tencent的部分，请按照如下规则书写，请假定有这么一个已经写好了的自定义函数，分别是KE，对应KeywordsExtraction，和TS，对应TextSimilarity，他们只需在调用的时候将输入值和返回值填进括号内，就能自动完美处理好数据。
