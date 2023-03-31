@@ -1,0 +1,2 @@
+# GPT-with-memories
+增加由NLP算法和神经网络维护的数据库，使chatgpt可以突破4096tokens数的限制，记忆长度从hours达到days级别
